@@ -10,6 +10,7 @@ import { AUTH_COOKIE, verifySessionToken } from "@/lib/session";
 
 function isPublicAuthRoute(pathname: string) {
   return (
+    pathname.startsWith("/brand/") ||
     pathname === "/login" ||
     pathname === "/api/auth/login" ||
     pathname === "/api/auth/logout"
