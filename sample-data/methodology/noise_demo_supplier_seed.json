@@ -1,0 +1,49 @@
+{
+  "seedId": "styleflow-demo-noise-80-v2",
+  "sourceMarker": "demo_noise_seed_80_v2",
+  "legacySourceMarkers": ["demo_noise_seed_80_v1"],
+  "planSyncSourcePrefix": "plan_sync:",
+  "description": "Local demo-only commercial enrichment for the bundled Noise methodology sample. These values are synthetic and must never be treated as real supplier contracts, contacts or tax registrations.",
+  "expectedPlanStyles": 121,
+  "expectedNoiseStyles": 121,
+  "targetMappedStyles": 97,
+  "targetUnresolvedStyles": 24,
+  "defaults": {
+    "nlcInr": 799,
+    "gstRate": 18,
+    "paymentTerms": "Net 30 days",
+    "incoterms": "DAP",
+    "moq": 1,
+    "packSize": 1,
+    "leadTimeDays": 14
+  },
+  "preservedSupplierProfile": {
+    "email": "existing-noise-supplier@supplier-demo.example",
+    "gstin": "06DEMOS2099A1Z5",
+    "state": "Haryana",
+    "leadTimeDays": 14
+  },
+  "assignmentProfiles": [
+    {
+      "name": "StyleFlow Noise Demo Supplier North",
+      "email": "noise-north@supplier-demo.example",
+      "gstin": "06DEMOS2101A1Z5",
+      "state": "Haryana",
+      "leadTimeDays": 14
+    },
+    {
+      "name": "StyleFlow Noise Demo Supplier West",
+      "email": "noise-west@supplier-demo.example",
+      "gstin": "27DEMOS2102A1Z5",
+      "state": "Maharashtra",
+      "leadTimeDays": 12
+    },
+    {
+      "name": "StyleFlow Noise Demo Supplier South",
+      "email": "noise-south@supplier-demo.example",
+      "gstin": "29DEMOS2103A1Z5",
+      "state": "Karnataka",
+      "leadTimeDays": 16
+    }
+  ]
+}
